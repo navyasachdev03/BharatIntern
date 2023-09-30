@@ -1,0 +1,60 @@
+<html>
+<head>
+    <title>Temperature Converter</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="navleft">
+        <i class="fa fa-thermometer-half fa-lg"></i>
+        <h2 class="ex">Temperature Converter</h2>
+    </div>
+
+    <div class="converter">
+        <table>
+            <tr>
+                <td><label for="unitFrom">From:</label></td>
+                <td>
+                    <select id="unitFrom">
+                        <option value="celsius">Celsius</option>
+                        <option value="fahrenheit">Fahrenheit</option>
+                        <option value="kelvin">Kelvin</option>
+                      </select>
+                </td>
+                <td><input type="number" id="inputTemp" placeholder="Input"></td>
+            </tr>
+            <tr><td colspan="3"><hr></td></tr>
+            <tr>
+                <td><label for="unitTo">To:</label></td>
+                <td>
+                    <select id="unitTo">
+                        <option value="celsius">Celsius</option>
+                        <option value="fahrenheit">Fahrenheit</option>
+                        <option value="kelvin">Kelvin</option>
+                    </select>
+                </td>
+                <td><input type="text" id="result" placeholder="Output" readonly></td>
+            </tr>
+            <tr><td colspan="3"><hr></td></tr>
+        </table>
+        <button onclick="reset()" class="rbtn">Reset</button>
+        <button onclick="convertTemperature()" class="cbtn">Calculate</button>
+      </div>
+
+      <div class="instructions">
+        <h2>General Instructions</h2>
+        <ul>
+            <li>Select your given temperature's unit in the 'From' select box.</li>
+            <li>Select your desired temperature's unit in the 'To' select box.</li>
+            <li>Enter the temperature value that you want to convert in the 'Input' field.</li>
+            <li>Click on 'Calculate' for results and 'Reset' in case you want to reset the values to original state.</li>
+            <li>Converted temperature value will be displayed in the 'Output' field.</li>
+        </ul>
+      </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

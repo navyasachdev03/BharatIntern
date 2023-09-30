@@ -1,0 +1,100 @@
+body, html{
+    height: 100%; 
+    margin: 0; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: skyblue;
+}
+
+.ex{
+    margin-left: 2lvw;
+    margin-top: -2lvw;
+    font-size: 2.2lvw;
+}
+
+.navleft{
+    margin-top: 4.5lvw;
+    margin-left: 4lvw;
+}
+
+.converter{
+    text-align: center;
+    background-color: white;
+    border: 0.1lvw solid black;
+    border-radius: 1.5lvw;
+    padding: 2lvw;
+    width: 40%;
+    margin-left: 5lvw;
+    margin-top: 5lvw;
+    float: left;
+}
+
+.converter label{
+    font-size: 1.8lvw;
+}
+
+select,input{
+    font-size: 1.2lvw;
+    border-radius: 0.5lvw;
+    padding: 0.3lvw;
+    border: 0.1lvw solid black;
+}
+
+.converter table{
+    padding: 1lvw;
+}
+
+td{
+    padding: 1lvw;
+}
+
+.cbtn,.rbtn{
+    font-size: 1.4lvw;
+    background-color: darkblue;
+    color: white;
+    padding: 0.7lvw;
+    border-radius: 1lvw;
+    border: 0.1lvw solid black;
+    width: 28%;
+}
+
+.cbtn:hover, .rbtn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.rbtn{
+    float: left;
+    margin-left: 4lvw;
+}
+
+.cbtn{
+    margin-left: 2lvw;
+}
+
+.instructions{
+    background-color: white;
+    border: 0.1lvw solid black;
+    border-radius: 1.5lvw;
+    padding: 2.1lvw;
+    width: 41%;
+    margin-right: 3lvw;
+    margin-top: 4.9lvw;
+    float: right;
+}
+
+.instructions h2{
+    text-align: center;
+}
+
+ul{
+    font-size: 1.5lvw;
+}
