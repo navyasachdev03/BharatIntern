@@ -1,0 +1,100 @@
+.navbar{
+    background-color: rgb(95, 88, 88);
+    margin-top: 0lvw;
+    display: flex;
+}
+
+.navleft{
+    display: flex;
+}
+
+.nimg{
+    height: 3.05lvw;
+    width: 3.05lvw;
+    margin-top: 0.8lvw;
+    margin-left: 5lvw;
+}
+
+.ntext{
+    color: white;
+    font-size: 1.4lvw;
+    letter-spacing: 0.08lvw;
+    margin-top: 1.5lvw;
+}
+
+.navright{
+    display: flex;
+    margin-left: 40lvw;
+    margin-top: 0.5lvw;
+}
+
+.navright a[class="hi"]{
+    font-size: 1.25lvw;
+    letter-spacing: 0.08lvw;
+    color: white;
+    padding: 1lvw 1.25lvw;
+    text-decoration: none;
+}
+
+.navright a[class="hi"]:hover{
+    cursor: pointer;
+    background-color: rgb(39, 32, 32);
+    transform: scale(1.1);
+}
+
+.navright button{
+    font-size: 1.25lvw;
+    letter-spacing: 0.08lvw;
+    color: white;
+    padding: 1lvw 1.25lvw;
+    background-color: rgb(57, 0, 0);
+    border: 0.1lvw solid rgb(57, 0, 0);
+    margin-bottom: 0.5lvw;
+    border-radius: 1.5lvw;
+}
+
+.navright button:hover{
+    cursor: pointer;
+    background-color: rgb(113, 78, 78);
+    transform: scale(1.08);
+}
+
+.navright a[class="hiii"]{
+    color: white;
+    text-decoration: none;
+}
+
+
+.bottom{
+    background-color: rgb(95, 88, 88);
+    overflow: hidden;
+    bottom: 0; 
+    width: 100%; 
+    margin-bottom: 0lvw;
+    text-align: center;
+}
+
+.bicons{
+    margin-top: 2lvw;
+}
+
+.ibtn{
+    height: 2.4lvw; 
+    width: 2.4lvw; 
+    cursor: pointer; 
+    border-radius: 3lvw; 
+    font-size: 1.5lvw;
+    color: white;
+    background-color: rgb(95, 88, 88);
+    border: 0.02lvw solid white;
+}
+
+.ibtn:hover{
+    background-color: white;
+    color: black;
+}
+
+.btext{
+    color: white;
+    font-size: 1.2lvw;
+}

@@ -1,0 +1,110 @@
+<html>
+<head>
+    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="navbar">
+
+        <div class="navleft">
+            <img src="logo2.png" class="nimg">&nbsp;&nbsp;
+            <p class="ntext">My Portfolio</p>
+        </div>
+
+        <div class="navright">
+            <a href="Home page.html" class="hi">Home</a>
+            <a href="about.html" class="hi">About</a>
+            <a href="portfolio.html" class="hi">Portfolio</a>
+            <a href="contact.html" class="hi">Contact</a>&nbsp;&nbsp;&nbsp;
+            <button><a href="https://www.linkedin.com/in/navyasachdev03/" class="hiii">Hire me!</a></button>
+        </div>
+    </div>
+
+    <div class="upper">
+        <h5>HELLO EVERYBODY,</h5>
+        <h3 id="typing">I am Navya...</h3>
+        <h1>About Me</h1>
+        <p>Hi, My name is Navya Sachdev. I'm a 3rd year student aspiring to grow and learn more about software and related fields <br>
+        On technical front, so far my specialities include programming languages like C,C++,Java,HTML,CSS & Javascript; with <br>
+        ReactJS and NodeJS, the frameworks which I'm still learning.
+        </p>
+    </div>
+
+
+    <div class="middle">
+
+        <div class="middleleft">
+            <div class="imgcontainer">
+                <img src="img.png" class="portimg">
+                <p class="imgtext">Completed many <br> projects successfully <br> using programming <br> languages!</p>
+                <a href="portfolio.html" class="btn">SEE MORE!</a>
+            </div>
+        </div>
+
+        <div class="middleright">
+
+            <div class="graphic box">
+                <img src="graphic.png" class="logoimg">
+                <p class="boxtext">Graphic Design</p>
+                <a href="#" class="glink">MORE</a> 
+                <div class="gline line"></div>
+            </div>
+        
+            <div class="web box">
+                <img src="web.png" class="logoimg">
+                <p class="boxtext">Web Design</p>
+                <a href="#" class="wlink">MORE</a> 
+                <div class="wline line"></div>
+            </div>
+        
+            <div class="soft box">
+                <img src="software.png" class="logoimg">
+                <p class="boxtext">Programming</p>
+                <a href="#" class="slink">MORE</a> 
+                <div class="sline line"></div>
+            </div>
+
+            <div class="appl box">
+                <img src="appl.png" class="logoimg">
+                <p class="boxtext">Application</p>
+                <a href="#" class="alink">MORE</a> 
+                <div class="aline line"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="bicons">
+            <p class="btext">Visit my profile:
+            <button class="ibtn"><i class="fa fa-linkedin"></i></button>
+            <button class="ibtn"><i class="fa fa-instagram"></i></button>
+            <button class="ibtn"><i class="fa fa-facebook"></i></button>
+            <button class="ibtn"><i class="fa fa-twitter"></i></button></p>
+        </div>
+    </div>
+
+<script>
+
+    const typingText = document.getElementById('typing');
+
+    function startTypingAnimation() {
+        typingText.style.animation = 'typing 10s steps(40, end), blink-caret 2s step-end infinite';
+    }
+
+    function resetTyping() {
+        typingText.style.animation = 'none';
+        void typingText.offsetWidth;
+        setTimeout(startTypingAnimation, 2000);
+    }
+    typingText.addEventListener('animationiteration', resetTyping);
+    startTypingAnimation();
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,217 @@
+body, html{
+    height: 100%; 
+    margin: 0; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgb(38, 33, 74);
+    width: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.up{
+    height: 0.5lvw;
+    width: 8lvw;
+    background-color: rgb(236, 244, 85);
+    margin-left: 7lvw;
+    margin-top: 7lvw;
+}
+
+.uptext{
+    font-size: 3lvw;
+    color: aquamarine;
+    margin-left: 7lvw;
+}
+
+.up1{
+    font-size: 1lvw;
+    letter-spacing: 0.05lvw;
+    color: white;
+    margin-left: 7lvw;
+}
+
+.up2{
+    font-size: 0.8lvw;
+    letter-spacing: 0.05lvw;
+    color: white;
+    margin-left: 7lvw;
+}
+
+.cert{
+    margin-top: -20lvw;
+    margin-left: 70lvw;
+    height: 5lvw;
+    overflow: hidden;
+    position: absolute; 
+    transition: height 0.4s; 
+    -webkit-transition: height 0.4s; 
+}
+
+.cert:hover{
+    cursor: pointer;
+    height: 37lvw;
+    background-color: rgb(152, 115, 104);
+    padding: 0.7lvw;
+    border-radius: 4lvw;
+}
+
+.cert i{
+    color: white;
+    font-size: 1.75lvw;
+    margin-top: 2lvw;
+}
+
+ul li{
+    font-size: 1.2lvw;
+}
+
+.upright ul{
+    color: white;
+    font-size: 1.5lvw;
+}
+
+.uprtext1{
+    color: white;
+    font-size: 2.5lvw;
+    margin-top: -2.4lvw;
+    margin-left: 2.6lvw;
+}
+
+.uprbtn{
+    color: white;
+    font-size: 1.2lvw;
+    padding: 0.5lvw;
+    border-radius: 3lvw;
+    background-color: rgb(152, 115, 104);
+    border: 0.1lvw solid white;
+}
+
+.uprbtn:hover{
+    color: rgb(152, 115, 104);
+    background-color: white;
+    cursor: pointer;
+}
+
+.skills{
+    margin-top: -28.5lvw;
+    margin-left: 70lvw;
+    height: 5lvw;
+    overflow: hidden;
+    position: absolute; 
+    transition: height 0.5s; 
+    -webkit-transition: height 0.5s; 
+}
+
+.skills:hover{
+    cursor: pointer;
+    height: 24lvw;
+    background-color: rgb(68, 113, 89);
+    padding: 0.5lvw;
+    border-radius: 4lvw;
+}
+
+.skills i{
+    color: white;
+    font-size: 1.75lvw;
+    margin-top: 2lvw;
+}
+
+.uprtext2{
+    color: white;
+    font-size: 2.5lvw;
+    margin-top: -2.5lvw;
+    margin-left: 2.6lvw;
+}
+
+.upperbottomright{
+    background-color: rgb(153, 92, 210, 0.5);
+    margin-top: -9lvw;
+    margin-left: 63lvw;
+    width: 30lvw;
+}
+
+.upperbottomright p{
+    font-size: 1lvw;
+    letter-spacing: 0.1lvw;
+    color: white;
+    padding: 1.8lvw;
+}
+
+.bbtext{
+    font-size: 3lvw;
+    color: aquamarine;
+    margin-left: 7lvw;
+    margin-top: -22lvw;
+}
+
+.vert{
+    height: 20lvw;
+    width: 0.04lvw;
+    background-color: white;
+    margin-left: 9lvw;
+    margin-top: -2lvw;
+}
+
+.hor1{
+    height: 0.04lvw;
+    width: 10lvw;
+    background-color: white;
+    margin-left: 9lvw;
+    margin-top: -17lvw;
+}
+
+.hor2{
+    height: 0.04lvw;
+    width: 10lvw;
+    background-color: white;
+    margin-left: 9lvw;
+    margin-top: 5lvw;
+}
+
+.hor3{
+    height: 0.04lvw;
+    width: 10lvw;
+    background-color: white;
+    margin-left: 9lvw;
+    margin-top: 5lvw;
+}
+
+.hor4{
+    height: 0.04lvw;
+    width: 10lvw;
+    background-color: white;
+    margin-left: 9lvw;
+    margin-top: 4.8lvw;
+}
+
+.horul{
+    color: white;
+    font-size: 1.3lvw;
+    margin-left: 17.3lvw;
+    margin-top: -0.8lvw;
+}
+
+
+.dbtn{
+    margin-left: 73lvw;
+    margin-top: -2lvw;
+}
+
+.down{
+    padding: 0.5lvw;
+    font-size: 1.2lvw;
+    color: white;
+    background-color: rgb(72, 159, 114);
+    border: 0.1lvw solid rgb(40, 111, 74);
+}
+
+.down:hover{
+    cursor: pointer;
+    background-color: rgb(40, 111, 74);
+}
+
