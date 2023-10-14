@@ -1,0 +1,155 @@
+<html>
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+   
+body, html{
+    height: 100%; 
+    margin: 0; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgb(38, 33, 74);
+    width: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    color: white;
+    font-size: 3lvw;
+    text-align: center;
+    margin-top: 1.5lvw;
+}
+
+*{
+    box-sizing: border-box;
+ }
+
+
+ .portfolioContainer1{
+    margin: 4lvw 19lvw;
+    padding: 0.2lvw;
+ }
+
+ .portfolioContainer2, .portfolioContainer3{
+    margin-left: 19.2lvw;
+ }
+
+ .portfolioContainer1 img, .portfolioContainer2 img, .portfolioContainer3 img{
+    height: 26lvw;
+    width: 28lvw;
+ }
+ 
+ .ImageCol {
+    position: relative;
+    padding: 0.7lvw;
+    float: left;
+ }
+
+ .text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: white;
+  padding-top: 12lvw;
+  text-align: center;
+  display: none;
+  font-weight: bold;
+  font-size: 1.3lvw;
+  opacity: 0; 
+  animation: fadeIn 0.3s ease forwards; 
+}
+
+ .ImageCol:hover .text-overlay{
+    cursor: pointer;
+    display: block;
+ }
+ 
+ @keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+
+        <div class="navleft">
+            <img src="images/logo2.png" class="nimg">&nbsp;&nbsp;
+            <p class="ntext">My Portfolio</p>
+        </div>
+
+        <div class="navright">
+            <a href="Home page.html" class="hi">Home</a>
+            <a href="about.html" class="hi">About</a>
+            <a href="portfolio.html" class="hi">Portfolio</a>
+            <a href="contact.html" class="hi">Contact</a>&nbsp;&nbsp;&nbsp;
+            <button><a href="https://www.linkedin.com/in/navyasachdev03/" class="hiii">Hire me!</a></button>
+        </div>
+    </div>
+
+    <h1>My Portfolio</h1>
+
+    <hr>
+
+    <div class="portfolioContainer1">
+        <div class="ImageCol">
+            <img src="images/covid.jpg" />
+            <div class="text-overlay">CoWiki - covid 19 website</div>
+        </div>
+
+        <div class="ImageCol">
+            <img src="images/quiz.png" />
+            <div class="text-overlay">Quiz Website</div>
+        </div>
+    </div>
+
+    <div class="portfolioContainer2">
+        <div class="ImageCol">
+            <img src="images/pet.webp" />
+            <div class="text-overlay">Pet Care Website</div>
+        </div>
+
+        <div class="ImageCol">
+            <img src="images/youtube.jpg" />
+            <div class="text-overlay">Youtube clone</div>
+        </div>
+    </div>
+
+    <div class="portfolioContainer3">
+        <div class="ImageCol">
+            <img src="images/product.jpg" />
+            <div class="text-overlay">Product Landing Page</div>
+        </div>
+
+        <div class="ImageCol">
+            <img src="images/notepad.jpg" />
+            <div class="text-overlay">To-do List</div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="bicons">
+            <p class="btext">Visit my profile:
+            <button class="ibtn"><i class="fa fa-linkedin"></i></button>
+            <button class="ibtn"><i class="fa fa-instagram"></i></button>
+            <button class="ibtn"><i class="fa fa-facebook"></i></button>
+            <button class="ibtn"><i class="fa fa-twitter"></i></button></p>
+        </div>
+    </div>
+
+</body>
+</html>
